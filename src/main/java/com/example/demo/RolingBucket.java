@@ -16,14 +16,14 @@ private int TotalSentToQR=0;
 		int QRPercent=20;
 		int counter=0;
 		int array[]=new int[50];
-		int loopcount=1;
-		int j=0;
+//		int loopcount=1;
+//		int j=0;
 		System.out.println("BucketSize is: "+BucketSize);
 //		int j=0;
 		
 		for(int i=0;i<50;i++) {
 			
-			j++;
+//			j++;
 			String wr="WR";	
 			wr=wr.concat(Integer.toString(i));
 		
@@ -40,10 +40,10 @@ private int TotalSentToQR=0;
 			   }
 		   }
 			
-			if(j==BucketSize) {
-				loopcount++;
-				j=0;
-			}
+//			if(j==BucketSize) {
+//				loopcount++;
+//				j=0;
+//			}
 
 			
 			   System.out.println("\nFor request "+i+" counter value is: "+counter);
